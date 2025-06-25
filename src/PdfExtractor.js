@@ -60,7 +60,7 @@ function PdfExtractor() {
     <div className="body-main-container">
       <div className="button-bar body-header">
         <h2 className="tool-name-title">Data Extractor</h2>
-        <button onClick={clearTool} class="clear-button">Reset Extractor</button>
+        {pdfFile && (<button onClick={clearTool} class="clear-button">Reset Extractor</button>)}
       </div>
 
       <div className="button-bar">
