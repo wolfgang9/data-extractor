@@ -1,0 +1,121 @@
+.body-main-container {
+  padding: 0px 20px 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  margin-top: 1vh;
+  box-shadow: 0px 5px 9px 2px #fdc300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 80vh;
+  overflow-y: overlay;
+}
+
+.button-bar {
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body-header {
+    padding: 0px 4px 10px 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pdf-viewer {
+  height: 60vh;
+  width: 70vw;
+  border-radius: 9px;
+}
+
+.pdf-viewer-container {
+  margin-top: 20px;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-main,
+.custom-file-uploader {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 15px 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #13a9e1;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  transition: color 0.8s;
+}
+
+.file-name-preview {
+  background: #fdc300;
+  padding: 9px;
+  border-radius: 9px;
+  width: fit-content;
+}
+
+.custom-file-uploader {
+  height: 20px;
+}
+
+.file-input {
+  display: none;
+  pointer-events: none;
+}
+
+.button-main:hover,
+.custom-file-uploader:hover {
+  background-color: #fdc300;
+  color: black;
+}
+
+.button-main:active,
+.custom-file-uploader:active {
+  background-color: #fdc300;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: black;
+}
+
+.tool-name-title {
+  margin: 0;
+  padding: 10px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  background: #fdc300;
+}
+
+.clear-button {
+  background-color: white;
+  color: black;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border: 2px solid #f44336;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.clear-button:hover {
+  background-color: #f44336;
+  color: white;
+}
